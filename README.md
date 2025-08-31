@@ -1,10 +1,67 @@
-# Getting Started with Create React App
+# Sparsh Jain - Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive personal portfolio website built with React and Tailwind CSS, showcasing my experience as AVP of Gen AI at Wells Fargo, projects, and thought leadership in AI.
+
+## 🌟 Features
+
+- **Modern Design**: Clean, professional layout with subtle animations
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
+- **Single Page Application**: Smooth scrolling between sections
+- **AI-Focused Content**: Highlights expertise in generative AI and machine learning
+- **GitHub Pages Ready**: Configured for free hosting on GitHub Pages
+
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+## 📋 Deployment to GitHub Pages
+
+1. **Create a GitHub repository** named `sparsh-portfolio`
+2. **Push your code** to the repository:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/sparsh-portfolio.git
+   git push -u origin main
+   ```
+3. **Deploy to GitHub Pages**:
+   ```bash
+   npm run deploy
+   ```
+4. **Enable GitHub Pages** in repository settings and select `gh-pages` branch
+5. **Your site will be live** at `https://YOUR_USERNAME.github.io/sparsh-portfolio`
+
+## 🎨 Customization
+
+### Update Personal Information
+- Edit contact links in `src/App.tsx`
+- Update the homepage URL in `package.json`
+- Modify content in all sections to match your experience
+
+### Styling
+- Colors can be customized in `tailwind.config.js`
+- Font preferences in `src/index.css`
+
+## 📱 Sections
+
+- **Hero**: Name, tagline, and call-to-action
+- **About**: Personal introduction and philosophy
+- **Experience**: Professional background and expertise
+- **Projects**: Showcase of work and achievements
+- **Speaking & Leadership**: Toastmasters and community involvement
+- **Contact**: Social links and contact information
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
