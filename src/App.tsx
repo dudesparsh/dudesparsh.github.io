@@ -290,7 +290,7 @@ function App() {
                   <div className="flex items-start space-x-4">
                     <div className="w-2 h-2 hero-gradient rounded-full mt-3 flex-shrink-0"></div>
                     <p className="text-lg text-gray-600 leading-relaxed">
-                      <strong>GenAI Data Augmentation Pipeline:</strong> Engineered LLM-based workflows with LoRA and knowledge distillation, working with Meta's LLaMA 3, Microsoft's Phi, and OpenAI's GPT models to build scalable domain-specific data augmentation pipelines.
+                      <strong>GenAI Data Augmentation Pipeline:</strong> Engineered LLM-based workflows with LoRA, PEFT and knowledge distillation, working with Meta's LLaMA 3, Microsoft's Phi, and OpenAI's GPT models to build scalable domain-specific data augmentation pipelines.
                     </p>
                   </div>
                   <div className="flex items-start space-x-4">
@@ -320,7 +320,7 @@ function App() {
                     <div className="text-sm text-gray-600 font-medium">Project Lead</div>
                   </div>
                   <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-red-100 rounded-2xl">
-                    <div className="text-2xl font-black gradient-text mb-2">LoRA</div>
+                    <div className="text-2xl font-black gradient-text mb-2">LoRA, PEFT</div>
                     <div className="text-sm text-gray-600 font-medium">Fine-tuning</div>
                   </div>
                 </div>
@@ -347,8 +347,12 @@ function App() {
                     Worked in cutting-edge AI R&D at NTU Singapore Lab, ranked <strong>world #2 in AI & ML</strong>.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    <strong>Published work:</strong> MedBERT - recognized in Harvard N2C2 Challenge, presented at APSIPA 2022
+                    Worked under <strong>Prof. Chng Eng Siong </strong>(https://scholar.google.com/citations?user=FJodrCcAAAAJ) to publish work: <strong>MedBERT</strong> - recognized in <strong> Harvard </strong>N2C2 Challenge, presented at APSIPA 2022.
                   </p>
+                  <p className="text-gray-600 leading-relaxed">
+                    Developed End-to-End Language Generation and Named Entity Recognition services using large language models to enhance AI systems, including an Automatic Speech Recognition System for real-time inference.
+                  </p>
+
                 </div>
                 <div className="flex flex-wrap gap-2">
                   <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Natural Language Processing</span>
@@ -368,14 +372,14 @@ function App() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900">AI Researcher (R&D)</h3>
-                    <p className="text-lg text-purple-600 font-semibold">Confetto • May 2021 - Oct 2022 • 1 yr 6 mos</p>
+                    <p className="text-lg text-purple-600 font-semibold">Confetto • Mar 2021 - Jan 2022 • 10 mos</p>
                   </div>
                 </div>
                 <div className="space-y-4 mb-6">
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-pink-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-600 leading-relaxed">
-                      Led development of automated image content generation pipeline using novel ML techniques and hybrid models
+                      Led development of automated image generation (Competitor of OpenAI's DaLLE) pipeline using novel ML techniques and hybrid models
                     </p>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -387,9 +391,16 @@ function App() {
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-pink-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-gray-600 leading-relaxed">
-                      Built caption generation service automating brand text to social media content transformation
+                      Built caption generation service (Competitor of ChatGPT) automating brand text to social media content transformation
                     </p>
                   </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-pink-500 rounded-full mt-2 flex-shrink-0"></div>
+                    <p className="text-gray-600 leading-relaxed">
+                    Leveraged cloud platforms (AWS) to deploy image and text generation services, optimizing resource utilization and reducing production timings significantly.
+                    </p>
+                  </div>
+
                 </div>
                 <div className="grid grid-cols-3 gap-4 text-center">
                   <div className="p-4 bg-gradient-to-br from-pink-50 to-rose-50 rounded-xl">
